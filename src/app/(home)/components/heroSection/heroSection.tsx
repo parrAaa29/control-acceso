@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './accessControl.module.css';
-import Card from './card.jsx';
+import styles from './heroSection.module.css';
+import Card from '../../../../components/layout/card.jsx';
 
-const AccessControl = () => {
+const HeroSection = () => {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -26,8 +26,9 @@ const AccessControl = () => {
       <div className={styles.cardContainer}>
         <Card />
       </div>
+
     </div>
   );
 };
 
-export default AccessControl;
+export default HeroSection;
