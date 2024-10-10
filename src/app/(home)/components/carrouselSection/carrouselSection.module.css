@@ -1,50 +1,64 @@
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: rgb(255, 255, 255);
-  color: #000000;
-  padding: 50px;
-  border-radius: 8px;
-}
-
-.content {
-  max-width: 60%;
-}
-
-.heading {
-  color: #a084eb;
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
+.problemSection {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+  margin-top: 50px;
 }
 
 .title {
-  font-size: 40px;
+  font-size: 2.8rem;
+  margin-bottom: 60px;
+  color: #2b2b2b;
   font-weight: bold;
-  line-height: 1.2;
-  margin-bottom: 20px;
 }
 
-.description {
-  font-size: 18px;
-  line-height: 1.6;
-  max-width: 600px;
-}
-
-.iconContainer {
+.problems {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(135deg, #36d1dc, #5b86e5);
-  border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+.problem {
+  flex: 1;
+  min-width: 250px;
+  max-width: 350px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
 }
 
 .icon {
-  background-color: #fff;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  font-size: 20px;
+  color: #ff3b3b;
+  background-color: #ffcccc; /* Fondo de color rojo más claro */
+  padding: 15px; /* Espaciado interno alrededor del icono */
+  border-radius: 50%; /* Hace que el fondo sea circular */
+  margin-bottom: 20px;
+  display: inline-block; /* Asegura que el fondo se ajuste al tamaño del contenido */
+  height: 50px;
+  width: 50px;
+}
+
+.problemSection h3 {
+  font-size: 1.2rem;
+  color: #1d1d1d;
+  margin-bottom: 15px;
+}
+.problemSection p {
+  font-size: 1rem;
+  color: #737373;
+  line-height: 1.5;
+}
+
+.problemLabel {
+  font-size: 0.8rem !important;
+  color: #ff3b3b !important;
+  font-weight: 500; /* Negrita pero no demasiado pesada */
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
 }
