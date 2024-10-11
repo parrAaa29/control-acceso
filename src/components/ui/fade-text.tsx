@@ -8,6 +8,7 @@ type FadeTextProps = {
   direction?: "up" | "down" | "left" | "right";
   framerProps?: Variants;
   text: string;
+  icon?: React.ReactNode;
 };
 
 export function FadeText({
@@ -17,6 +18,7 @@ export function FadeText({
     hidden: { opacity: 0 },
     show: { opacity: 1, transition: { type: "spring" } },
   },
+  icon,
   text,
 }: FadeTextProps) {
   const directionOffset = useMemo(() => {
@@ -53,7 +55,7 @@ export function FadeText({
       viewport={{ once: true }}
       variants={FADE_ANIMATION_VARIANTS}
     >
-      <motion.span className={className}>{text}</motion.span>
+      <motion.span className={className}>{icon}{text}</motion.span>
     </motion.div>
   );
 }

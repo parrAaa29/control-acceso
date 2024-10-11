@@ -2,7 +2,7 @@
   text-align: center;
   padding: 50px 20px;
   background-color: #fff;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .title {
@@ -34,11 +34,15 @@
 .icon {
   font-size: 20px;
   color: #ff3b3b;
-  background-color: #ffcccc; /* Fondo de color rojo más claro */
-  padding: 15px; /* Espaciado interno alrededor del icono */
-  border-radius: 50%; /* Hace que el fondo sea circular */
+  background-color: #ffcccc;
+  /* Fondo de color rojo más claro */
+  padding: 15px;
+  /* Espaciado interno alrededor del icono */
+  border-radius: 50%;
+  /* Hace que el fondo sea circular */
   margin-bottom: 20px;
-  display: inline-block; /* Asegura que el fondo se ajuste al tamaño del contenido */
+  display: inline-block;
+  /* Asegura que el fondo se ajuste al tamaño del contenido */
   height: 50px;
   width: 50px;
 }
@@ -48,6 +52,7 @@
   color: #1d1d1d;
   margin-bottom: 15px;
 }
+
 .problemSection p {
   font-size: 1rem;
   color: #737373;
@@ -57,7 +62,8 @@
 .problemLabel {
   font-size: 0.8rem !important;
   color: #ff3b3b !important;
-  font-weight: 500; /* Negrita pero no demasiado pesada */
+  font-weight: 500;
+  /* Negrita pero no demasiado pesada */
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-bottom: 10px;
