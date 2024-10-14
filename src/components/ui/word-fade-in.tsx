@@ -1,7 +1,6 @@
 "use client";
 
 import { motion, Variants } from "framer-motion";
-
 import { cn } from "@/lib/utils";
 
 interface WordFadeInProps {
@@ -16,7 +15,7 @@ export default function WordFadeIn({
   delay = 0.15,
   variants = {
     hidden: { opacity: 0 },
-    visible: (i: any) => ({
+    visible: (i: number) => ({ // Change any to number
       y: 0,
       opacity: 1,
       transition: { delay: i * delay },

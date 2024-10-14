@@ -1,0 +1,35 @@
+.solutionSection {
+    --tw-bg-opacity: 1;
+    background-color: rgb(245 245 245 / var(--tw-bg-opacity));
+    text-align: center;
+    padding: 50px 20px;
+    padding-top: 85px;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+.solutionSection p{
+    font-size: 1.1rem;
+    --tw-text-opacity: 1;
+    color: rgb(71 85 105 / var(--tw-text-opacity));
+}
+
+.sectionLabel {
+    font-size: 0.8rem !important;
+    color: #ff3b3b !important;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.gridContainer{
+    width: 100%;
+    padding: 50px
+}

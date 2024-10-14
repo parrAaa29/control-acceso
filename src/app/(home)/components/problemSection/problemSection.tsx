@@ -3,7 +3,7 @@ import styles from './problemSection.module.css';  // Importar los estilos
 import { FaBrain, FaBolt, FaShieldAlt } from 'react-icons/fa';
 import BlurFade from '@/components/ui/blur-fade';
 
-const CarrouselSection = () => {
+const ProblemSection = () => {
     return (
         <>
             <section className={styles.problemSection}>
@@ -58,4 +58,4 @@ const CarrouselSection = () => {
     );
 };
 
-export default CarrouselSection;
+export default ProblemSection;

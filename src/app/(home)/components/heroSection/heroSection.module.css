@@ -38,12 +38,13 @@
   align-items: start;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: start;
   height: 100%;
   width: 100%;
   padding: 50px 70px;
   padding-top: 0px;
+  gap: 80px;
 }
 
 .textContainer h1 {

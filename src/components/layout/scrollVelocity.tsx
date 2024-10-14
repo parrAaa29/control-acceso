@@ -66,9 +66,13 @@ export function VelocityScroll({
         }
       };
 
+      // Calcular repeticiones iniciales
       calculateRepetitions();
 
+      // Escuchar cambios de tamaño de ventana
       window.addEventListener("resize", calculateRepetitions);
+
+      // Cleanup
       return () => window.removeEventListener("resize", calculateRepetitions);
     }, [children]);
 
