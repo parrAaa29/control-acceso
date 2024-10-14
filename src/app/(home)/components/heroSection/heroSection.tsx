@@ -1,10 +1,14 @@
 import React from 'react';
 import styles from './heroSection.module.css';
-import Card from '../../../../components/layout/card.jsx';
 import WordPullUp from '@/components/ui/word-pull-up';
 import { FadeText } from '@/components/ui/fade-text';
 import { PhoneIcon } from '@heroicons/react/20/solid';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
+
+const Card = dynamic(() => import('@/components/layout/card'), {
+    ssr: false,
+});
 
 const HeroSection = () => {
   return (
