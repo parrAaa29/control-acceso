@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="border-t border-gray-200 p-4 mt-4 flex items-center justify-around">
+    <footer className="border-t border-gray-200 p-4 flex items-center justify-around">
         <p className="text-gray-500 text-sm text-cente">
           Copyright &copy; {new Date().getFullYear()} Enttia - Control d&apos;Acc&eacute;s
         </p>

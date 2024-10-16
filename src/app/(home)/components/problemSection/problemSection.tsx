@@ -7,13 +7,9 @@ const ProblemSection = () => {
     return (
         <>
             <section className={styles.problemSection}>
-                <BlurFade delay={0.25} inView>
                     <p className={styles.problemLabel}>PROBLEM</p>
-                </BlurFade>
                 <h2 className={styles.title}>
-                    <BlurFade delay={0.25} inView>
                         Manually entering your data is a hassle.
-                    </BlurFade>
                 </h2>
                 <div className={styles.problems}>
                     <BlurFade delay={0.5} inView>

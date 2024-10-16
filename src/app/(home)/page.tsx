@@ -5,6 +5,7 @@ import { VelocityScroll } from "@/components/layout/scrollVelocity";
 import StepsSection from "./components/stepSection/stepSection";
 import SolutionSection from "./components/solutionSection/solutionSection";
 import LatestProjects from "./components/projectSection/projectSection";
+import UltimateSection from "./components/ultimateSection/ultimateSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <SolutionSection />
       <StepsSection />
       <LatestProjects />
+      <UltimateSection />
     </>
   );
 }

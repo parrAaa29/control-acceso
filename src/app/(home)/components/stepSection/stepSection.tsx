@@ -63,7 +63,7 @@ const StepsSection = () => {
                         }
                         return newProgress;
                     });
-                }, 100);
+                }, 50);
             }
             return null;
         });
@@ -102,13 +102,9 @@ const StepsSection = () => {
 
     return (
         <section className={styles.stepSection} ref={sectionRef}>
-            <BlurFade delay={0.25} inView>
                 <p className={styles.stepLabel}>HOW IT WORKS</p>
-            </BlurFade>
             <h2 className={styles.title}>
-                <BlurFade delay={0.25} inView>
                     Just 3 steps to get started
-                </BlurFade>
             </h2>
 
             <div className={styles.stepContent}>
