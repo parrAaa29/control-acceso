@@ -14,10 +14,10 @@
     font-weight: bold;
 }
 
-.solutionSection p{
+.description{
     font-size: 1.1rem;
     --tw-text-opacity: 1;
-    color: rgb(71 85 105 / var(--tw-text-opacity));
+    color: rgb(71 85 105 / var(--tw-text-opacity)) !important;
 }
 
 .sectionLabel {

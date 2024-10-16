@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./solutionSection.module.css";
 import BlurFade from "@/components/ui/blur-fade";
-import { BentoDemo } from "@/components/layout/bentoGrid";
+import { BentoDemo } from "./components/bentoGrid";
 
 
 const SolutionSection = () => {
