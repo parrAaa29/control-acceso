@@ -33,8 +33,8 @@
 
 .icon {
   font-size: 20px;
-  color: #ff3b3b;
-  background-color: #ffcccc;
+  color: #f7a603;
+  background-color: #ffedcc;
   /* Fondo de color rojo más claro */
   padding: 15px;
   /* Espaciado interno alrededor del icono */
@@ -61,7 +61,7 @@
 
 .problemLabel {
   font-size: 0.8rem !important;
-  color: #ff3b3b !important;
+  color: #f7a603 !important;
   font-weight: 500;
   /* Negrita pero no demasiado pesada */
   text-transform: uppercase;

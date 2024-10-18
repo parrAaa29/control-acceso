@@ -45,7 +45,7 @@ export default function Navbar() {
 
                 <Link href="/contacte">
                     <FadeText
-                        className="px-4 py-2 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 flex items-center space-x-2 cursor-pointer"
+                        className="px-4 py-2 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 flex items-center space-x-2 cursor-pointer"
                         direction="down"
                         framerProps={{
                             show: { transition: { delay: 0.6 } },

@@ -102,16 +102,16 @@ const StepsSection = () => {
 
     return (
         <section className={styles.stepSection} ref={sectionRef}>
-                <p className={styles.stepLabel}>HOW IT WORKS</p>
+            <p className={styles.stepLabel}>HOW IT WORKS</p>
             <h2 className={styles.title}>
-                    Just 3 steps to get started
+                Just 3 steps to get started
             </h2>
 
             <div className={styles.stepContent}>
                 <div className={styles.textContainer}>
-                    {(currentStepSet === 0 ? steps.slice(0, 3) : steps.slice(3, 5)).map((step, index) => (
-                        <BlurFade delay={0.5} inView key={index} className={styles.blurFade}>
-                            <div className={styles.step}>
+                    <BlurFade delay={0.5} inView className={styles.blurFade}>
+                        {(currentStepSet === 0 ? steps.slice(0, 3) : steps.slice(3, 5)).map((step, index) => (
+                            <div className={styles.step} key={index}>
                                 <div className={styles.progressBar}>
                                     <div className={styles.progress} style={{ width: `${progress[index % 3]}%` }} />
                                 </div>
@@ -123,8 +123,8 @@ const StepsSection = () => {
                                     </div>
                                 </div>
                             </div>
-                        </BlurFade>
-                    ))}
+                        ))}
+                    </BlurFade>
                 </div>
                 <div className={styles.imageContainer}>
                     <BlurFade delay={0.5} inView>

@@ -102,7 +102,7 @@
   top: 50%;
   right: 290px;
   transform: translate(50%, -50%);
-  z-index: 0; /* Card detrás del texto, pero delante del fondo */
+  z-index: 1; /* Card detrás del texto, pero delante del fondo */
   height: 100vh;
   width: 100%;
 }

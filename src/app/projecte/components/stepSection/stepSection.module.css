@@ -54,8 +54,8 @@
 
 .icon {
     font-size: 20px;
-    color: #ff3b3b;
-    background-color: #ffcccc;
+    color: #f7a603;
+    background-color: #ffedcc;
     padding: 15px;
     border-radius: 50%;
     margin-right: 20px;
@@ -66,7 +66,7 @@
 
 .stepLabel {
     font-size: 0.8rem !important;
-    color: #ff3b3b !important;
+    color: #f7a603 !important;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -114,6 +114,6 @@
 
 .progress {
     height: 100%;
-    background-color: #ff3b3b;
+    background-color: #f7a603;
     transition: width 0.3s ease;
 }

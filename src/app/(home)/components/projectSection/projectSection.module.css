@@ -2,7 +2,7 @@
     text-align: center;
     padding: 50px 20px;
     background-color: #fff;
-    margin-top: 50px;
+    margin-top: 0px;
     margin-bottom: 50px;
 }
 
@@ -15,7 +15,7 @@
 
 .projectLabel {
     font-size: 0.8rem !important;
-    color: #ff3b3b !important;
+    color: #f7a603 !important;
     font-weight: 500;
     /* Negrita pero no demasiado pesada */
     text-transform: uppercase;

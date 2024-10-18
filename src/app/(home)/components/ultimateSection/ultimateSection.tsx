@@ -9,7 +9,7 @@ const UltimateSection = () => {
 
     return (
         <>
-            <div className="flex flex-col items-center justify-center bg-red-100 p-10 rounded-lg text-center">
+            <div className="flex flex-col items-center justify-center bg-orange-100 p-10 rounded-lg text-center">
                 <section className={styles.ultimateSection}>
                         <p className={styles.ultimateLabel}>CONTACT US</p>
                     <h2 className={styles.title}>
@@ -17,7 +17,7 @@ const UltimateSection = () => {
                     </h2>
                     <Link href="/contacte" className="flex justify-center items-center">
                         <FadeText
-                            className="px-4 py-2 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 flex items-center space-x-2 cursor-pointer w-fit"
+                            className="px-4 py-2 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 flex items-center space-x-2 cursor-pointer w-fit"
                             direction="down"
                             framerProps={{
                                 show: { transition: { delay: 0.6 } },
