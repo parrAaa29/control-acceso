@@ -32,7 +32,7 @@ const ReviewCard = ({
     return (
         <div className="flex flex-row items-center gap-2">
             <Image
-                className="m-10 grayscale transition duration-300 ease-in-out hover:grayscale-0"
+                className="ml-10 mr-10 grayscale transition duration-300 ease-in-out hover:grayscale-0"
                 width="200"
                 height="200"
                 alt="logo-image"
