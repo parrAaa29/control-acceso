@@ -109,7 +109,7 @@ const StepsSection = () => {
 
             <div className={styles.stepContent}>
                 <div className={styles.textContainer}>
-                    <BlurFade delay={0.5} inView className={styles.blurFade}>
+                    <BlurFade delay={0.25} inView className={styles.blurFade}>
                         {(currentStepSet === 0 ? steps.slice(0, 3) : steps.slice(3, 5)).map((step, index) => (
                             <div className={styles.step} key={index}>
                                 <div className={styles.progressBar}>
@@ -127,7 +127,7 @@ const StepsSection = () => {
                     </BlurFade>
                 </div>
                 <div className={styles.imageContainer}>
-                    <BlurFade delay={0.5} inView>
+                    <BlurFade delay={0.25} inView>
                         <Image src={currentImage} alt="Current Step Image" width={500} height={500} />
                     </BlurFade>
                 </div>
