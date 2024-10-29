@@ -22,21 +22,21 @@ const LatestProjects = () => {
                         title="Seu de la Generalitat de Girona"
                         description="Nova implementació de control d'accessos amb panys intel·ligents"
                         imageUrl={image1}
-                        linkUrl= "/projecte"
+                        linkUrl= "/projecte/#projects"
                     />
                     <NewsCard
                         date="Gener 2, 2023"
                         title="Palau Marc de la Generalitat"
                         description="Instal·lació de control d'accessos amb panys intel·ligents"
                         imageUrl={image2}
-                        linkUrl= "/projecte"
+                        linkUrl= "/projecte/#projects"
                     />
                     <NewsCard
                         date="Agost 29, 2024"
                         title="Institut Nacional d’Educació Física de Catalunya"
                         description="Instal·lació de sistema de videovigilancia"
                         imageUrl={image3}
-                        linkUrl= "/projecte"
+                        linkUrl= "/projecte/#projects"
                         knowMore={true}
                     />
                 </div>
