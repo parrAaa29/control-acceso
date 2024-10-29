@@ -28,7 +28,7 @@ const HeroSection = () => {
             framerProps={{
               show: { transition: { delay: 0.8 } },
             }}
-            text="Permite controlar la entrada y salida del personal autorizado en diferentes zonas y en tiempo real."
+            text="Permet controlar l' entrada i sortida del personal autoritzat en diferents zones i en temps real."
           />
         </div>
       </div>

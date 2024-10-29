@@ -36,14 +36,14 @@ export default function Navbar() {
             <nav className={`flex space-x-4 flex-1 text-center justify-end`}>
                 {/* Renderizado condicional de enlaces según la ruta */}
                 {currentPath !== "/projecte" && (
-                    <Link href="/">
+                    <Link href="/projecte">
                         <FadeText
                             className="px-4 py-2 border border-gray-300 rounded-lg text-black bg-white hover:bg-gray-100 flex items-center cursor-pointer"
                             direction="down"
                             framerProps={{
                                 show: { transition: { delay: 0.6 } },
                             }}
-                            text="About Us"
+                            text="Sobre nosaltres"
                         />
                     </Link>
                 )}

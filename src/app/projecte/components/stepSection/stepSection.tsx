@@ -3,38 +3,38 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './stepSection.module.css';
 import BlurFade from '@/components/ui/blur-fade';
-import { FaUpload, FaRocket, FaStar, FaHandshake, FaLightbulb } from 'react-icons/fa';
+import { FaClock, FaCalendarAlt, FaChartBar, FaUsers, FaCheckCircle } from 'react-icons/fa';
 import Image from 'next/image';
 
 const steps = [
     {
-        title: "1. Upload Your Data",
-        description: "Simply upload your data to our secure platform. We support various file formats and data types to ensure seamless integration with your existing systems.",
-        icon: <FaUpload />,
+        title: "1. Configura els Terminals",
+        description: "Instal·la i configura els terminals de control per registrar la presència amb tecnologies com RFID, empremta digital o reconeixement facial.",
+        icon: <FaClock />,
         image: '/img/step/imagen-prueba-psa-1.png',
     },
     {
-        title: "2. Click Start",
-        description: "Our advanced AI algorithms automatically process and analyze your data, extracting valuable insights and patterns that would be difficult to identify manually.",
-        icon: <FaRocket />,
+        title: "2. Defineix Horaris i Jornades",
+        description: "Estableix franges horàries, toleràncies d'entrada/sortida i diferents tipus de jornades laborals per als teus empleats.",
+        icon: <FaCalendarAlt />,
         image: '/img/step/imagen-prueba-psa-2.png',
     },
     {
-        title: "3. Get Actionable Insights",
-        description: "Receive clear, actionable insights and recommendations based on the AI analysis. Use these insights to make data-driven decisions and improve your business strategies.",
-        icon: <FaStar />,
+        title: "3. Obten Informes en Temps Real",
+        description: "Genera informes detallats de presència, absències i hores extres per analitzar el rendiment laboral de manera precisa.",
+        icon: <FaChartBar />,
         image: '/img/step/imagen-prueba-psa-3.png',
     },
     {
-        title: "4. Collaborate with Teams",
-        description: "Engage with your teams through collaborative tools and features that enhance productivity and communication.",
-        icon: <FaHandshake />,
+        title: "4. Col·labora amb l'Equip",
+        description: "Comparteix els informes i les mètriques d'assistència amb els teus equips per fomentar la transparència i millorar la comunicació.",
+        icon: <FaUsers />,
         image: '/img/step/imagen-prueba-psa-4.png',
     },
     {
-        title: "5. Implement Changes",
-        description: "Utilize the insights gathered to implement effective changes within your organization and track their impact.",
-        icon: <FaLightbulb />,
+        title: "5. Aplica Millores Contínues",
+        description: "Utilitza les dades d'assistència per ajustar horaris i optimitzar la productivitat a tota l'organització.",
+        icon: <FaCheckCircle />,
         image: '/img/step/imagen-prueba-psa-5.png',
     }
 ];
@@ -102,9 +102,9 @@ const StepsSection = () => {
 
     return (
         <section className={styles.stepSection} ref={sectionRef}>
-            <p className={styles.stepLabel}>HOW IT WORKS</p>
+            <p className={styles.stepLabel}>COM FUNCIONA</p>
             <h2 className={styles.title}>
-                Just 3 steps to get started
+                Només 3 passos per començar
             </h2>
 
             <div className={styles.stepContent}>
@@ -128,7 +128,7 @@ const StepsSection = () => {
                 </div>
                 <div className={styles.imageContainer}>
                     <BlurFade delay={0.25} inView>
-                        <Image src={currentImage} alt="Current Step Image" width={500} height={500} />
+                        <Image src={currentImage} alt="Imatge del pas actual" width={500} height={500} />
                     </BlurFade>
                 </div>
             </div>

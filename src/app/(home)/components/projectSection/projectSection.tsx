@@ -11,9 +11,9 @@ const LatestProjects = () => {
     return (
         <>
             <section className={styles.projectSection}>
-                    <p className={styles.projectLabel}>LASTEST PROJECTS</p>
+                    <p className={styles.projectLabel}>PROJECTES DESTACATS</p>
                 <h2 className={styles.title}>
-                        Check out our latest projects
+                    Nostres projectes més destacats
                 </h2>
                 <BlurFade delay={0.5} inView>
                 <div className="flex justify-center items-center gap-20">

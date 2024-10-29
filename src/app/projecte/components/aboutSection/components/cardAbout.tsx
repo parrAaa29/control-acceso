@@ -11,10 +11,11 @@ const CardAbout = () => {
                         <div className="bg-white p-2 rounded-2xl border-2 border-[#f7a603]">
                             <LockClosedIcon className="h-8 w-8 text-[#f7a603]" />
                         </div>
-                        <h3 className="text-xl font-bold ml-4 text-[#2b2b2b]">We follow our own path</h3>
+                        <h3 className="text-xl font-bold ml-4 text-[#2b2b2b]">Seguretat a la vostra mida</h3>
                     </div>
                     <p>
-                        There’s no rule book on IR best practices, so we wrote our own. The proven methodologies we use are based on our real-world knowledge of what truly works from decades of supporting issuers through their capital markets journeys.
+                        Amb ID Presence, oferim un sistema de control de presència robust i segur, adaptable a les necessitats de la vostra empresa, 
+                        amb múltiples nivells d’identificació i configuracions personalitzades per cada usuari.
                     </p>
                 </div>
             </BlurFade>
@@ -25,10 +26,11 @@ const CardAbout = () => {
                         <div className="bg-white p-2 rounded-2xl border-2 border-[#f7a603]">
                             <FingerPrintIcon className="h-8 w-8 text-[#f7a603]" />
                         </div>
-                        <h3 className="text-xl font-bold ml-4 text-[#2b2b2b]">Reassuringly hands-on</h3>
+                        <h3 className="text-xl font-bold ml-4 text-[#2b2b2b]">Control precís i eficient</h3>
                     </div>
                     <p>
-                        We don’t advise from afar—we are both strategists and practitioners. We roll up our sleeves and get deep in the trenches, filling your knowledge gaps and supporting your time-pressed IR teams.
+                        Ens comprometem a oferir un control horari en temps real, que permet gestionar totes les incidències, absències i hores 
+                        extres amb exactitud, i assegurar una integració pràctica i àgil amb el vostre equip.
                     </p>
                 </div>
             </BlurFade>

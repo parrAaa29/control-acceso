@@ -5,10 +5,10 @@ import Projects from './components/projects';
 const ProjectsSection = () => {
     return (
         <div className="p-8 flex items-center flex-col">
-            <section className={styles.projectSection}>
-                <p className={styles.projectLabel}>PROJECTS</p>
+            <section id="projects" className={styles.projectSection}>
+                <p className={styles.projectLabel}>PROJECTES</p>
                 <h2 className={styles.title}>
-                    Projects that inspire security
+                    Projectes que mostren seguretat
                 </h2>
             </section>
 

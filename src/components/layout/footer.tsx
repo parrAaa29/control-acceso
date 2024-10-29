@@ -2,10 +2,8 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="border-t border-gray-200 p-4 flex flex-col items-center space-y-4">
-      {/* Contenedor principal con flex para los bloques de enlaces */}
+    <footer id="footer" className="border-t border-gray-200 p-4 flex flex-col items-center space-y-4">
       <div className="w-full flex justify-around">
-        {/* Bloque de Política de Privacidad y Condiciones de Servicio */}
         <div className="flex items-center space-y-4">
           <ul className="flex justify-center space-x-4">
             <li>
@@ -21,7 +19,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Bloque de Empresas Relacionadas */}
         <div className="related-companies flex items-center space-y-2">
           <ul className="flex justify-center space-x-6">
             <li>
@@ -52,6 +49,16 @@ const Footer = () => {
                 className="text-gray-600 hover:text-gray-900 text-sm"
               >
                 av.enttia.com
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://surtidorescerveza.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-gray-900 text-sm"
+              >
+                surtidorescerveza.com
               </a>
             </li>
           </ul>

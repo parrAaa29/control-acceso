@@ -11,9 +11,9 @@ const UltimateSection = () => {
         <>
             <div className="flex flex-col items-center justify-center bg-orange-100 p-10 rounded-lg text-center">
                 <section className={styles.ultimateSection}>
-                        <p className={styles.ultimateLabel}>CONTACT US</p>
+                        <p className={styles.ultimateLabel}>CONTACTE</p>
                     <h2 className={styles.title}>
-                            Contact us for more information
+                            Contacta amb nosaltres per a més informació
                     </h2>
                     <Link href="/contacte" className="flex justify-center items-center">
                         <FadeText
@@ -25,7 +25,7 @@ const UltimateSection = () => {
                             icon={
                                 <PhoneIcon className="h-5 w-5 mr-2" aria-hidden="true" />
                             }
-                            text="Contact us free now"
+                            text="Contacta'ns ara"
                         />
                     </Link>
                 </section>

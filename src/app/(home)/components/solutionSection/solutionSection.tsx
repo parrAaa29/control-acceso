@@ -8,20 +8,21 @@ const SolutionSection = () => {
     return (
         <>
             <section className={styles.solutionSection}>
-                    <p className={styles.sectionLabel}>Solution</p>
+                <p className={styles.sectionLabel}>Solució</p>
                 <h2 className={styles.title}>
-                        Manually entering your data is a hassle.
+                    Automatització en el control d&apos;assistència
                 </h2>
 
                 <BlurFade delay={0.25} inView>
                     <p className={styles.description}>
-                        We help you automate your data entry process so you can focus on what matters most.
+                        Facilita el control horari, redueix errors en el registre i optimitza l&apos;anàlisi
+                        de dades de presència, permetent-te enfocar els recursos en la productivitat.
                     </p>
                 </BlurFade>
 
                 <BlurFade delay={0.25} inView>
                     <div className={styles.gridContainer}>
-                        <BentoDemo/>
+                        <BentoDemo />
                     </div>
                 </BlurFade>
             </section>

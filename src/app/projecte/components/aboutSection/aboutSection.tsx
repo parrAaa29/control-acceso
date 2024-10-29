@@ -11,12 +11,15 @@ const AboutSection = () => {
             <div className={styles.aboutContent}>
                 <section className={styles.aboutSection}>
                 <BlurFade delay={0.75} inView>
-                    <p className={styles.aboutLabel}>OUR MISSION</p>
+                    <p className={styles.aboutLabel}>NOSTRA MISSIÓ</p>
                     <h2 className={styles.title}>
-                        Our mission is to provide the best service to our customers
+                        Oferim el millor sistema de control horari i de presència
                     </h2>
                     <p className={styles.description}>
-                        We are a company that is dedicated to providing the best service to our customers. We have a team of professionals who are always ready to help you with any questions you may have.
+                        Som una empresa dedicada a facilitar un control de presència integral, amb solucions que 
+                        garanteixen la gestió horària en temps real, incidències, i informes detallats. El nostre sistema ID Presence, amb 
+                        interfície intuïtiva i múltiples mètodes d’identificació (targetes magnètiques, proximitat, empremta digital, 
+                        reconeixement facial), s&apos;adapta a les necessitats de les empreses amb seu única o diverses.
                     </p>
                 </BlurFade>
                 </section>

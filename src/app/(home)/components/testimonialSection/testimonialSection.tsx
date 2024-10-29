@@ -7,7 +7,7 @@ import { Testimonies } from "./components/testimonies";
 const TestimonialSection = () => {
     return (
         <>
-            <section className={styles.testimonialSection}>
+            <section id="testimonials" className={styles.testimonialSection}>
                 <p className={styles.testimonialLabel}>
                     Testimonis
                 </p>
